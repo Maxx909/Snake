@@ -58,3 +58,7 @@ class Snake:
         # 2. Перевірка зіткнення з межами екрана (стінами)
         if head[0] < 0 or head[0] >= constants.WIDTH or head[1] < 0 or head[1] >= constants.HEIGHT:
             return True
+
+
+def change_direction():
+    return None
